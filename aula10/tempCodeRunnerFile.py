@@ -11,9 +11,3 @@ except (ValueError, TypeError):
     print('Digite apenas números.')
 except ZeroDivisionError:
     print('Funcionário não pode ser Zero.')
-except 
-# Se não der erro execute o else!
-else:
-    print(f'Média por funcionário: {media_por_funcionario:.2f}')
-finally:  # Pode executar sempre, com erro ou não para finalizar a consulta
-    print('Programa encerrado!')
