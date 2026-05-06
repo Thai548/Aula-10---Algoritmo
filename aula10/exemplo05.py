@@ -8,7 +8,7 @@ try:  # try quer dizer TENTE
 
 
 except Exception as e:
-    print(f'Ops! Erro nos valores de entrada {e}')
+    print(f'Ops! Erro nos valores de entrada: {e}')
 except KeyboardInterrupt:
     print('Operação cancelada pelo usuário')
 
